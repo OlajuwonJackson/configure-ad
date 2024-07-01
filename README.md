@@ -213,7 +213,5 @@
 <p>
 We've successfully completed the second part of this tutorial. Through configuring Active Directory on the Domain Controller, we grounded our infrastructure by creating a forest, administrator account, and at the very end of it all, integrating Client-01 into the domain. In the third part of this tutorial, users will be generated and various Active Directory situations will be simulated. </p>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
