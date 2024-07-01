@@ -12,7 +12,7 @@
 
 <h2>Prerequisites</h2>
 
-- <a href="https://github.com/OlajuwonJackson/configure-ad/"> Active Directory Deployed in the Cloud (Azure) (Part 1) </a>
+- <a href= </a>
 
 <h2>Key Objectives</h2>
 <h3>Active Directory Installation</h3>
