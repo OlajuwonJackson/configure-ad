@@ -76,7 +76,7 @@
 - Once the installation is done, notice the flag on the top left of the Server Manager
 - Click on the flag and promote DC-01 to Domain Controller.
 
-<img width="242" alt="3" src="https://github.com/Olajuwonjackson/configure-ad">
+<img width="242" alt="3" src="https://private-user-images.githubusercontent.com/163789590/314762776-6020727b-0778-475a-8181-2ad597fe8137.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyNzc2LTYwMjA3MjdiLTA3NzgtNDc1YS04MTgxLTJhZDU5N2ZlODEzNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YTZhMjk3ZGM5ZGVlYzBlNGQzOTJlNDk1MDJmZGMyOGIwZDkzMmE1ZDcwNzEyODg2N2JjMzliNTNkNjQxYzQ0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.d7R27HINl4Siai-yajkj3xLZYJBKP4AZI3BRZ2eNB6s">
 
 
 
@@ -87,7 +87,7 @@
 
 - Now add a new Forest and set the Root domain name to “mydomain.com”
 <p>
-<img width="565" alt="4" src="https://github.com/giovannibriones/Olajuwonjackson/configure-ad">
+<img width="565" alt="4" src="https://private-user-images.githubusercontent.com/163789590/314762815-c4ce5731-0b82-4a8a-bf41-1e2c75beeafa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyODE1LWM0Y2U1NzMxLTBiODItNGE4YS1iZjQxLTFlMmM3NWJlZWFmYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zODI1NWMxOTlkZWNkZjdiOTFjOWE4ZWIwNTYxMWUyNWYzYWE4MTJiMDE3NDAxZDFhOGU0OTNmMzA4NThkNTFmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9._i316gzqsfwdVJyFv-8Lp2jlWcVJZWRdsBwIFPn5iC0">
  </p>
   
 - Finish setup and restart DC-01
@@ -103,7 +103,7 @@
 
 - Once DC-01 has rebooted, click on tools and select Active Directory Users and Computers
 - Right-click on mydomain.com and select new and click on Organizational Unit
-<img width="438" alt="5" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/bef564b6-0393-488a-8094-e907f092a3a1">
+<img width="438" alt="5" src="https://private-user-images.githubusercontent.com/163789590/314762854-bef564b6-0393-488a-8094-e907f092a3a1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyODU0LWJlZjU2NGI2LTAzOTMtNDg4YS04MDk0LWU5MDdmMDkyYTNhMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMDRkZmJlNDljZTNkNWQ1MTk2ZDMwYTI4MzAxZTI3ZDk2ZjUxNGNlNTg0NWMyOWIyZTZkM2VkZTRiNDM1OTE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7PS4gobM2oN0iYE_0ZCqyk6YECX4kLUT56Jiva0hhP4">
 
 
 
@@ -116,7 +116,7 @@
 
 <p><strong> Create an OU named _EMPLOYEES and _ADMINS </strong></p>
 
-<img width="450" alt="6" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/bf4d2c90-6753-4179-8304-93831f29f81e">
+<img width="450" alt="6" src="https://private-user-images.githubusercontent.com/163789590/314762922-bf4d2c90-6753-4179-8304-93831f29f81e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyOTIyLWJmNGQyYzkwLTY3NTMtNDE3OS04MzA0LTkzODMxZjI5ZjgxZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OTYwZmZlYzYzM2M5ZjU4ZjE2NTMzMzg3MTdiNGE3YmJlZWFiZGYyZjg1MjA2YzM4YjExOTBmYmMwZjQ0MzlmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.O2R4go5Yu2fV3ephMiHUiUZzDEFCjC2a0w1_FGeXbqs">
 
 
 
@@ -125,7 +125,7 @@
 
 <p><strong> Right-click on Users and produce a new user named Jane Doe with the username jane_admin</strong></p>
 
-<img width="323" alt="7" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/d1fe5899-daad-4589-9d03-6367f5fbc145">
+<img width="323" alt="7" src="https://private-user-images.githubusercontent.com/163789590/314762953-d1fe5899-daad-4589-9d03-6367f5fbc145.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyOTUzLWQxZmU1ODk5LWRhYWQtNDU4OS05ZDAzLTYzNjdmNWZiYzE0NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04OGFhYTg3YzZkYWIwZjQ4ODA2YTExMjFjNDdiZDhlNWY5ZjIxNDZlOGI1NzMxNzgwNTAxYzA1OGFkN2YwZTg3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.aroJ4JDDBHzi_Udbi_k-UZHUrdWZGwrRb4giI6sU6zI">
 
 
 <p><strong>.</strong></p>
@@ -134,7 +134,7 @@
 
 <p><strong>Turn Jane Doe into an admin by right-clicking her name and adding her to the “Domain Admins” Security Group</strong></p>
 
-<img width="412" alt="8" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/bc7ac07c-1ae5-45d7-9f60-3188ad683769">
+<img width="412" alt="8" src="https://private-user-images.githubusercontent.com/163789590/314762985-bc7ac07c-1ae5-45d7-9f60-3188ad683769.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyOTg1LWJjN2FjMDdjLTFhZTUtNDVkNy05ZjYwLTMxODhhZDY4Mzc2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNDRhNzcyZGEzMGE5N2IzZWZhMzkzNmNhYTM1NmIzNmE5NGE1ZTdkM2Q5NTkyNDFjMjJlNmU3YzA0NTMzNmQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.O5JQmE58qC_AOgv1d37ojQcXkcsG0X6q0stEpnEZ_48">
 
 
 
@@ -144,7 +144,7 @@
 
 <p><strong>Logout of DC-01 and log back in with Jane Doe’s credentials</strong></p>
 
-<img width="337" alt="9" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/b71e7b29-550c-4e61-a8d1-359f14235f85">
+<img width="337" alt="9" src="https://private-user-images.githubusercontent.com/163789590/314763012-b71e7b29-550c-4e61-a8d1-359f14235f85.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYzMDEyLWI3MWU3YjI5LTU1MGMtNGU2MS1hOGQxLTM1OWYxNDIzNWY4NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNmVlZDViYWVlNDBiYzA1ZDZiNmMzMjZmYmJkNDI1MTJjNWYxNTcyNDQ2ZTNiMzkxZGU4ZWNkNjRmMmNjYjA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.0y9_xW89uGbwM6ByfTagoAUO2PYf7mNyoWvWUwhjYPo">
 
 
 <p><strong>.</strong></p>
@@ -158,7 +158,7 @@
 
 - In the Azure Portal, select Client-01 -> Networking -> Network interface and click on DNS servers
 
-<img width="735" alt="10" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/b47c3880-1e1c-4c95-8613-912b2374cd25">
+<img width="735" alt="10" src=https://private-user-images.githubusercontent.com/163789590/314763040-b47c3880-1e1c-4c95-8613-912b2374cd25.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYzMDQwLWI0N2MzODgwLTFlMWMtNGM5NS04NjEzLTkxMmIyMzc0Y2QyNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YzEzZGIxY2EwMWJhODUzMDNjZWUyYmM5OTlmOGVjMDEzODBmYTg5OWQ5YTgzZDIzNGRhYjliZTU5YmJmYTRmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.VkdPZIXraDsJCV62ZWKU6IzG5yKMP4YonJ_7M3iYRxY"">
 
 
 
@@ -169,7 +169,7 @@
 
 <p><strong>Choose a custom DNS server and type in the private ip address of DC-01 and restart Client-01</strong></p>
 
-<img width="356" alt="11" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/ee5fde66-59c9-4644-ad7a-931520473158">
+<img width="356" alt="11" src=https://private-user-images.githubusercontent.com/163789590/314763066-ee5fde66-59c9-4644-ad7a-931520473158.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYzMDY2LWVlNWZkZTY2LTU5YzktNDY0NC1hZDdhLTkzMTUyMDQ3MzE1OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YWNhNWZhNTA1ZjIzMjhmYjdjM2U3ZjlmM2JmYTk0YmU2MmEzNzJhY2RlZWM5NmViZTNhZjEyMjdlMWE5NTNjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Gh2CPjAJlU121WwsePCf3aaymK5AWlB8NvfWSOvgbQk"">
 
 
 <p><strong>.</strong></p>
@@ -178,7 +178,7 @@
 
 <p><strong> Now log back in to Client-01 using your original admin credentials. Click start and go to Settings > Rename this PC (advanced) > Change and add “mydomain.com” and log in with the admin credentials previously created (jane_admin) </strong></p>
 
-<img width="297" alt="12" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/442138e1-caad-4d55-86e7-8d5ab0b38557">
+<img width="297" alt="12" src="https://private-user-images.githubusercontent.com/163789590/314763096-442138e1-caad-4d55-86e7-8d5ab0b38557.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYzMDk2LTQ0MjEzOGUxLWNhYWQtNGQ1NS04NmU3LThkNWFiMGIzODU1Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hODdiMzUzODE1NDY2ZmIyNjQ5YmM5MzY0N2FlZTg3ZmM0YTAwZmQ5YTE1ZmUxOGEwNDU2OTMxMjQzZjUzM2Q2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.zTkLk01oHT3JchagzROw5yJ0iOrSuDdYgrVTHX-yiWA">
 
 <br>
 
@@ -196,7 +196,7 @@
 
 <br>
 
-<img width="343" alt="13" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/31475ba9-6628-41c1-8aef-a11f896cb0e6">
+<img width="343" alt="13" src="https://private-user-images.githubusercontent.com/163789590/314763333-31475ba9-6628-41c1-8aef-a11f896cb0e6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYzMzMzLTMxNDc1YmE5LTY2MjgtNDFjMS04YWVmLWExMWY4OTZjYjBlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MTcxOWZkNTkyZTJkMjdmM2E2ODYwNDkyYzk5NTQ4MTVhYzRmMDFhMWYwZDY3NGNjMDNlZmNiODI3NDQ2ZDQ0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Tuw2OYqiMpSwwkTEudBU3SIxbdKhjaf-lJiAIKO-iHA">
 
 <p><strong>This will allow normal users to login to Client-01</strong></p>
 
