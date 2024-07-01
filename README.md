@@ -3,7 +3,7 @@
 
 </p>
 
-<h1> Active Directory Deployed in the Cloud (Azure) (Part 2) </h1>
+<h1> Active Directory Deployed in the Cloud (Azure)  </h1>
 
 
 <p>Starting from where the first part of this tutorial ended, that produced our simulated Active Directory environment, in this second part we will explore the details of deploying and refining an Active Directory system. This part is designed to give a basic understanding of Active Directory services, emphasizing essential aspects such as installation, forest creation, user account administration, domain integration, and customized Remote Desktop Connection access.
@@ -12,7 +12,7 @@
 
 <h2>Prerequisites</h2>
 
-- <a href="https://github.com/OlajuwonJackson/configure-ad/"> On-premises Active Directory Deployed in the Cloud (Azure) (Part 1) </a>
+- <a href="https://github.com/OlajuwonJackson/configure-ad/"> Active Directory Deployed in the Cloud (Azure) (Part 1) </a>
 
 <h2>Key Objectives</h2>
 <h3>Active Directory Installation</h3>
@@ -54,7 +54,7 @@
 
 <h3>&#9312; Install Active Directory in DC-01</h3>
 
-- In the Server Manager dashboard, click Add roles and features and continue the setup <img width="736" alt="2" src="https://github.com/Olajuwonjackson/configure-ad">
+- In the Server Manager dashboard, click Add roles and features and continue the setup <img width="736" alt="2" src="https://private-user-images.githubusercontent.com/163789590/314762456-e6004d64-09cf-4472-b00a-08f2689b489b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk4NzYwNDUsIm5iZiI6MTcxOTg3NTc0NSwicGF0aCI6Ii8xNjM3ODk1OTAvMzE0NzYyNDU2LWU2MDA0ZDY0LTA5Y2YtNDQ3Mi1iMDBhLTA4ZjI2ODliNDg5Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwMVQyMzE1NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ODE0ZDZlODIxMGU0OTJkODExZmMxZDA2OWZmMzc5N2NlNzQ3ZGQ0NGU1Yjg3NzU4ZjNmMDg3NTcxMGJjOGZmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gX220uQPHuOb31pHgVBuHDPlgA4jTURJM-nGWbNP24s">
 
 
 <p>
