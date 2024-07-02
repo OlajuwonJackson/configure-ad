@@ -6,7 +6,8 @@
 <h1> Active Directory Deployed in the Cloud (Azure)  </h1>
 
 
-<p>Starting from where the first part of this tutorial ended, that produced our simulated Active Directory environment, in this second part we will explore the details of deploying and refining an Active Directory system. This part is designed to give a basic understanding of Active Directory services, emphasizing essential aspects such as installation, forest creation, user account administration, domain integration, and customized Remote Desktop Connection access.
+<p> In order to do follow along in this example you will need a Microsoft Azure account. Microsoft Azure has a free 200 credit for 30 day trail.
+ In this Lab we will explore the details of deploying and refining an Active Directory system. This part is designed to give a basic understanding of Active Directory services, emphasizing essential aspects such as installation, forest creation, user account administration, domain integration, and customized Remote Desktop Connection access.
 
 </p>
 
