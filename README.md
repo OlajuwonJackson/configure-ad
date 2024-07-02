@@ -13,7 +13,7 @@
 <h2>Prerequisites</h2>
 
 <h3> -Create Domain Controller virtual machine Azure</h3>
-<h3> -configure Domain controller's private IP to static (Networking-> IP config-> Ipconfig1-> set Private IP address allocation static </h3>
+<h3> -configure Domain controller's private IP to static (Networking-> IP config-> Ipconfig1-> set Private IP address allocation static)</h3>
 <h3>-Create another VM title Client connected to the same network as the domain controller </h3>
 
 
