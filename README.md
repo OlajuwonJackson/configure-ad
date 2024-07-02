@@ -12,7 +12,10 @@
 
 <h2>Prerequisites</h2>
 
-- <a href= </a>
+-Create Domain Controller virtual machine Azure 
+-configure Domain controller's private IP to static (Networking-> IP config-> Ipconfig1-> set Private IP address allocation static
+-Create another VM title Client connected to the same network as the domain controller 
+-</a>
 
 <h2>Key Objectives</h2>
 <h3>Active Directory Installation</h3>
